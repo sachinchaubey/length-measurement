@@ -56,3 +56,20 @@ h1#heading{
 /* #equal{
     margin-top: 45px;
 } */
+
+
+.input-div {
+    display: flex;
+}
+.input-div > * {
+    margin: 5px;
+}
+
+
+@media screen and (max-width: 700px) {
+
+.input-div {
+    display: flex;
+    flex-direction: column;
+}
+}
